@@ -1,0 +1,72 @@
+#banner{
+    width: 1500px;
+    filter: drop-shadow(8px 8px 4px #a9c7da)
+    
+}
+
+body{
+    background-color: rgb(209, 222, 227);
+}
+
+#message{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(79, 91, 91);
+    font-size: 20px;
+    margin: 15px;
+    text-shadow: 2px 2px 5px rgb(117, 148, 158);
+    text-align: center;
+
+}
+
+#bannerContainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(79, 91, 91);
+    font-size: 20px;
+    margin: 15px;
+    text-shadow: 2px 2px 5px rgb(117, 148, 158);
+    }
+
+
+.image{
+    width: 250px;
+    height: 250px;
+    border: 5px solid rgb(250, 254, 255);
+    filter: drop-shadow(8px 8px 8px #a9c7da)
+    
+}
+
+#granContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#selectorContainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+#order {
+    .button:hover {background-color: #3e8e41};
+}
+
+
+@media (max-width: 600px){
+    .image{
+        width: 150px;
+        height: 150px;
+        border: 5px solid rgb(250, 254, 255);
+        filter: drop-shadow(8px 8px 8px #a9c7da)
+        
+    }
+    #message{
+        font-size: 15px;
+    }
+    
+}
